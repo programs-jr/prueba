@@ -1,0 +1,60 @@
+body {
+display: flex;
+gap: 50px;
+background: linear-gradient(#00858a, #b5ffff);
+}
+
+strong {
+font-style: italic;
+color: #3e8481;
+position: absolute;
+left: 10px;
+top: 4px;
+}
+
+.contenedor-nombre {
+max-height: 22%;
+border-radius: 12px;
+background-color: #57bbb4;
+font-size-max: 40%;
+position: absolute;
+top: 18px;
+right: 8px;
+left: 8px;
+color: #b4ffff;
+font-style: italic;
+text-align: center;
+}
+
+.nombre {
+padding: 10px;
+margin: 2px 0;
+}
+
+.flexbox {
+display: flex;
+position: sticky;
+top: 140px;
+flex-flow: column wrap;
+background-color: #57bbb4;
+border-radius: 8px;
+gap: 4%;
+padding: 20px 10px 20px 10px;
+height: 20px;
+width: 98%;
+border: 2px solid #3e8481;
+}
+
+botton {
+background-color: #4bb0a9;
+padding: 4px;
+border-radius: 8px;
+border: 2px solid #3e8481;
+text-decoration: none;
+}
+
+.cuerpo {
+position: absolute;
+top: 300px;
+background-color: blue;
+}
