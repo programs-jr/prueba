@@ -24,6 +24,7 @@ left: 8px;
 color: #b4ffff;
 font-style: italic;
 text-align: center;
+border: 2px solid #3e8481
 }
 
 .nombre {
@@ -56,21 +57,34 @@ text-decoration: none;
 text-align: center;
 position: relative;
 top: -4px;
+color: #3e8481;
+transition-property: background, color;
+transition-duration: 3s;
+}
+
+botton:hover {
+background: linear-gradient(#3e8481, #28a799);
+color: #b5ffff;
 }
 
 .fondo-parrafo {
 position: absolute;
-top: 32%;
+top: 220px;
 background-color: #57bbb4;
 border-radius: 12px;
-padding: 18px
+padding: 18px;
+border: 2px solid #3e8481;
 }
 
 .impresion {
 height: auto;
-padding: 2px 10px 10px 10px;
+padding: 0 10px 20px 10px;
+padding-top: 0;
 border-radius: 12px;
 background-color: #4bb0a9;
-font-size: 12px;
+font-size-max: 12px;
 text-align: justify;
+font-style: italic;
+color: #3e8476;
+border: 2px solid #42a8a1;
 }
