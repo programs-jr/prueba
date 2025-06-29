@@ -8,8 +8,8 @@ strong {
 font-style: italic;
 color: #3e8481;
 position: absolute;
-left: 10px;
-top: 4px;
+left: 14px;
+top: 8px;
 }
 
 .contenedor-nombre {
@@ -34,15 +34,17 @@ margin: 2px 0;
 .flexbox {
 display: flex;
 position: sticky;
-top: 140px;
+top: 20px;
 flex-flow: column wrap;
 background-color: #57bbb4;
 border-radius: 8px;
 gap: 4%;
+margin-top: 130px;
 padding: 15px 10px 15px 10px;
 height: 20px;
 width: 98%;
 border: 2px solid #3e8481;
+z-index: 15
 }
 
 botton {
@@ -52,10 +54,23 @@ border-radius: 8px;
 border: 2px solid #3e8481;
 text-decoration: none;
 text-align: center;
+position: relative;
+top: -4px;
 }
 
-.cuerpo {
+.fondo-parrafo {
 position: absolute;
-top: 300px;
-background-color: blue;
+top: 32%;
+background-color: #57bbb4;
+border-radius: 12px;
+padding: 18px
+}
+
+.impresion {
+height: auto;
+padding: 2px 10px 10px 10px;
+border-radius: 12px;
+background-color: #4bb0a9;
+font-size: 12px;
+text-align: justify;
 }
