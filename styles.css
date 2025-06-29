@@ -24,7 +24,8 @@ left: 8px;
 color: #b4ffff;
 font-style: italic;
 text-align: center;
-border: 2px solid #3e8481
+border: 2px solid #3e8481;
+opacity: 0.90;
 }
 
 .nombre {
@@ -45,7 +46,8 @@ padding: 15px 10px 15px 10px;
 height: 20px;
 width: 98%;
 border: 2px solid #3e8481;
-z-index: 15
+z-index: 15;
+opacity: 0.90;
 }
 
 botton {
@@ -53,18 +55,23 @@ background-color: #4bb0a9;
 padding: 4px;
 border-radius: 8px;
 border: 2px solid #3e8481;
-text-decoration: none;
 text-align: center;
 position: relative;
 top: -4px;
 color: #3e8481;
 transition-property: background, color;
-transition-duration: 3s;
+transition-duration: 2s;
 }
 
 botton:hover {
-background: linear-gradient(#3e8481, #28a799);
+background: #48a8a1;
 color: #b5ffff;
+}
+
+a {
+text-decoration: none;
+color: #57b8b4;
+text-shadow: 7px 7px 6px #000;
 }
 
 .fondo-parrafo {
@@ -76,6 +83,7 @@ padding: 18px;
 border: 2px solid #3e8481;
 left: 8px;
 right: 8px;
+opacity: 0.90;
 }
 
 .impresion {
@@ -89,4 +97,16 @@ text-align: justify;
 font-style: italic;
 color: #3e8476;
 border: 2px solid #42a8a1;
+}
+
+.figura1 {
+width: 50%;
+height: 270px;
+border-radius: 8px 8px 40% 8px;
+background-color: #b5ffff;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -10;
+opacity: 0.4
 }
