@@ -2,7 +2,7 @@ body {
 display: flex;
 gap: 50px;
 background: linear-gradient(#00858a, #b5ffff);
-height: 1500%;
+height: 150%;
 flex-flow: column wrap;
 }
 
