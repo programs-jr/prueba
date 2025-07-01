@@ -2,8 +2,9 @@ body {
 display: flex;
 gap: 50px;
 background: linear-gradient(#00858a, #b5ffff);
-height: 150%;
+height: 200%;
 flex-flow: column wrap;
+gap: 50px
 }
 
 strong {
@@ -38,7 +39,7 @@ margin: 2px 0;
 .flexbox {
 display: flex;
 position: sticky;
-top: 20px;
+top: 5px;
 width: auto;
 left: 8px;
 right: 8px;
@@ -46,12 +47,18 @@ flex-flow: column wrap;
 background-color: #57bbb4;
 border-radius: 8px;
 gap: 4%;
-margin-top: 130px;
+margin-top: 120px;
 padding: 15px 10px 15px 10px;
 height: 20px;
 border: 2px solid #3e8481;
 z-index: 15;
 opacity: 0.90;
+transition-property: opacity;
+transition-duration: 1s
+}
+
+.flexbox:hover {
+opacity: 0.03
 }
 
 botton {
@@ -83,7 +90,7 @@ position: absolute;
 top: 198px;
 background-color: #57bbb4;
 border-radius: 12px;
-padding: 12px 5px 5px 3px;
+padding: 12px 10px 5px 10px;
 border: 2px solid #3e8481;
 left: 8px;
 right: 8px;
@@ -133,11 +140,12 @@ position: absolute;
 top: 375px;
 background-color: #57bbb4;
 border-radius: 12px;
-padding: 16px;
+padding: 16px 16px 8px 16px;
 border: 2px solid #3e8481;
 left: 8px;
 right: 8px;
 opacity: 0.85;
+width: 43%;
 }
 
 .introduccion {
@@ -146,6 +154,50 @@ padding: 10px;
 border-radius: 12px;
 background-color: #4bb0a9;
 font-size: 12px;
+text-align: justify;
+font-style: italic;
+color: #3e8476;
+border: 2px solid #42a8a1;
+}
+
+.fondo-dibujo {
+display: flex;
+position: absolute;
+top: 375px;
+background-color: #57bbb4;
+border-radius: 12px;
+padding: 10px;
+border: 2px solid #3e8481;
+left: 55%;
+right: 8px;
+opacity: 0.85;
+width: 38%;
+}
+
+.dibujo {
+margin: auto;
+border-radius: 12px;
+}
+
+#inteligencia {
+position: absolute;
+top: 559px;
+background-color: #57bbb4;
+border-radius: 12px;
+padding: 12px 10px 5px 10px;
+border: 2px solid #3e8481;
+left: 8px;
+right: 8px;
+opacity: 0.85;
+height: auto
+}
+
+.inteligencia {
+height: auto;
+padding: 1 5px 7px 5px;
+border-radius: 12px;
+background-color: #4bb0a9;
+font-size: 11.5px;
 text-align: justify;
 font-style: italic;
 color: #3e8476;
