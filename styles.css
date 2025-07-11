@@ -203,3 +203,36 @@ font-style: italic;
 color: #3e8476;
 border: 2px solid #42a8a1;
 }
+
+.blackpink {
+width: 200px;
+height: 100px;
+border-radius: 12px;
+position: absolute;
+top: 50px;
+left: 43%;
+z-index: -15;
+opacity: 0.6
+}
+
+
+.twice {
+width: 200px;
+height: 200px;
+border-radius: 12px;
+position: absolute;
+top: 200px;
+left: 3%;
+z-index: -15;
+opacity: 0.6
+}
+
+.cachorro {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+z-index: -15;
+position: absolute;
+top: 500px;
+left: 30%
+}
